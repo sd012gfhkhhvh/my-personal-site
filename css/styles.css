@@ -1,0 +1,189 @@
+body {
+    /*
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    */
+    /****OR*****/
+    margin: 0; /*sets the margin of all four side 
+    **********************************************/
+    text-align: center; /*this property works for those elements whose width is not defined by us*/
+    font-family: 'Merriweather', serif;
+    /*font-size: 20px; */
+    color: #40514E;
+   
+}
+h1 {
+    color: #66BFBF;
+    line-height: 2; /*line-height and height difference
+    height: 200px;*/
+   
+    margin: 50px auto 0px;
+   /***********center the h1 when width is user defined********
+   width: 20%;    
+   margin: 0 auto; 
+   *******************************************************/
+   font-family: 'Sacramento', cursive;
+   /*********************dynamic-font=em,%,rem *****************************
+    *********************static-font=px *******************************/
+
+   /*if two dynamic font-size is applied one inside the body and another 
+   inside that tag to whom the size is meant to be applied, then both the 
+   values will add up. But if we specify the font size is to be static then 
+   it will take the static value not the dynamic one.
+   
+   root-em(rem) is a unit of font-size in CSS-3. With this property, if we add
+   any other font size to any parent container it does not affect (does not add on) 
+   the size specified inside that tag with unit rem.****************/
+
+   font-size: 5.62rem;  /**16px = 100% = 1em = 1rem
+    *********************90px = 562.5% = 5.62em = 5.62rem*/
+}
+h2 {
+    color: #66BFBF;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    line-height: 2;
+}
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover {
+    color: #EAF6F6;
+}
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 6%;
+    margin: 100px auto;
+}
+.top-container {
+   position: relative;
+   padding-top:100px;
+    background-color: #EAF6F6;
+}
+/******************SELF EXPERIMENT***************************
+div:hover{
+    color: #11999E;
+    background-color: #E4F9F5;
+    margin-top: 20px;
+    margin-right: 300px;
+}
+/***********************************************************/
+.middle-container {
+    margin: 100px 0;
+}
+.intro {
+    width: 30%;
+    margin: auto;
+}
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 90px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.github  {
+   width: 25%;
+   float: left;
+   margin-right: 30px;
+   
+}
+.chili {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.skill-row {
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+/**********************************************************
+.content-1 {
+    clear: left;
+}
+.content-2 {
+    clear: right;
+}
+**********************************************************/
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+/***************STYLING THE CONTACT ME BUTTON*****************/
+.btn {
+    background:  #11cdd4;
+    background-image: -webkit-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom,  #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background:  #30e3cb;
+    background-image: -webkit-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom,  #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  /****************MY EXPERIMENT***********************/
+  .nav-bar {
+      width: 100%;
+      height: 5.6rem;
+      background-color: #66BFBF;
+      position: fixed;
+      top: 0;
+      text-align: right;
+  }
+  .item {
+      position: relative;
+      top: 30px;
+      
+  }
+  .nav-bar-heading {
+      color:whitesmoke;
+      display: inline-block;
+      font-size: 4rem;
+      margin-top: 0%;
+      position: absolute;
+      left: 15px;
+      bottom: -30px;
+  }
+  /*******************************************************/
